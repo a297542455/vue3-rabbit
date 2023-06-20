@@ -1,0 +1,33 @@
+{
+  // 格式化 typescript 和 vue 使用 prettier-vscode
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // eslint 开启输入时检查错误，检查 js vue jsx tsx 文件
+  "eslint.enable": true,
+  "eslint.run": "onType",
+  "eslint.options": {
+    "extensions": [
+      ".js",
+      ".vue",
+      ".jsx",
+      ".tsx"
+    ]
+  },
+  // 在保存时运行的代码自动修复操作
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.fixAll.eslint": true
+  },
+  // 操作时作为单词分隔符的字符
+  "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
+  // 一个制表符等于的空格数
+  "editor.tabSize": 2,
+  // 默认行尾字符 LF
+  "files.eol": "\n",
+  // 不已紧凑形式呈现文件夹
+  "explorer.compactFolders": false
+}
