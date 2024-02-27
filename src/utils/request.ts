@@ -3,8 +3,8 @@ import useStore from "@/store";
 import axios, { type Method } from "axios";
 
 // 🚨 支付宝支付需要跳转到 devtest 这台服务器
-export const baseURL = "http://pcapi-xiaotuxian-front-devtest.itheima.net/";
-// export const baseURL = "http://pcapi-xiaotuxian-front.itheima.net/";
+export const baseURL = "https://pcapi-xiaotuxian-front-devtest.itheima.net/";
+// export const baseURL = "https://pcapi-xiaotuxian-front.itheima.net/";
 
 // 创建 axios 实例
 const instance = axios.create({
