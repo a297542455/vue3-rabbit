@@ -1,7 +1,7 @@
 # rabbit-vue3-ts-小兔鲜儿2022新版
 
-仓库地址: https://gitee.com/buyaoyangzhu/rabbit
-预览地址: http://buyaoyangzhu.gitee.io/rabbit
+仓库地址: https://github.com/a297542455/vue3-rabbit
+预览地址: https://rabbit.tanzizhou.fun/
 
 项目使用 `Vite` + `Vue3` + `TypeScript` + `Pinia` + `VueRouter@4` 进行开发。
 
